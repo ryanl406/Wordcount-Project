@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Count</title>
+</head>
+<body>
+  <h1>The total number of words is: {{noWords}}</h1>
+  <br>
+  <h2>{{highestNumber}}</h2>
+  <br>
+<h2>Your text is:</h2>
+{{words}}
+<br>
+<h3>Word Count</h3>
+{% for i, j in x %}
+{{ i }} - {{ j }}
+<br>
+{% endfor %}
+
+</body>
+</html>
